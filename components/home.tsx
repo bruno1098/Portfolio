@@ -264,7 +264,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -272,7 +272,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">ReactApiGPT</h3>
@@ -300,7 +300,7 @@ export function Home() {
               </Card>
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -308,7 +308,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">Expi</h3>
@@ -330,7 +330,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -338,7 +338,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">Deploy Brinquedo</h3>
@@ -360,7 +360,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -368,7 +368,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">Produtos MVC</h3>
@@ -390,7 +390,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -398,7 +398,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">Brinquedo API</h3>
@@ -420,7 +420,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -428,7 +428,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">BlueGuard</h3>
@@ -450,7 +450,7 @@ export function Home() {
 
               <Card>
                 <CardHeader>
-                  <motion.img
+                  {/* <motion.img
                     src="/placeholder.svg"
                     alt="Project 1"
                     className="rounded-t-lg object-cover w-full h-48"
@@ -458,7 +458,7 @@ export function Home() {
                     height="200"
                     style={{ aspectRatio: "300/200", objectFit: "cover" }}
                     whileHover={{ scale: 1.05 }}
-                  />
+                  /> */}
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-xl font-semibold">Sprints Java Advanced</h3>
