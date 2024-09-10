@@ -2,26 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  
+  .dark {
+    --background: #1b1e23; /* Fundo escuro */
+    --foreground: #f9fafb; /* Texto claro */
+    --card: #2d2f34; /* Fundo dos cards escuro */
+    --card-foreground: #f9fafb; /* Texto claro nos cards */
+    --popover: #34373c; /* Fundo para popover escuro */
+    --popover-foreground: #f9fafb; /* Texto claro */
+    --primary: #3b82f6; /* Azul vibrante */
+    --primary-foreground: #f9fafb; /* Texto claro */
+    --secondary: #121316; /* Cinza escuro */
+    --muted: #121316; /* Tom intermediário para seções no modo escuro */
+    --muted-foreground: #f9f9f9; /* Texto muted claro */
+    --border: #4b5563; /* Bordas escuras */
+    --input: #ff00bb; /* Inputs escuros */
+    --ring: #f0dcf1; /* Azul claro para foco */
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  header, footer {
+    background-color: var(--secondary); /* Tom intermediário para header e footer */
+    color: var(--secondary-foreground); /* Texto no header e footer */
   }
+
+  .dark header, .dark footer {
+    background-color: var(--secondary); /* Fundo mais escuro no modo dark */
+    color: var(--secondary-foreground); /* Texto claro no modo dark */
+  }
+
+  /* Corpo da página */
+  body {
+    background-color: var(--background); /* Fundo da página */
+    color: var(--foreground); /* Cor do texto */
+  }
+
+  /* Ajuste para os cards */
+  .card {
+    background-color: var(--card); /* Fundo dos cards */
+    color: var(--card-foreground); /* Texto nos cards */
+  }
+
+  .dark .card {
+    background-color: var(--card); /* Fundo dos cards no modo dark */
+    color: var(--card-foreground); /* Texto claro nos cards no modo dark */
+  }
+
+  /* Seções */
+  section {
+    background-color: var(--muted); /* Fundo neutro para seções */
+    color: var(--muted-foreground); /* Texto das seções */
+  }
+
+  .dark section {
+    background-color: var(--muted); /* Fundo neutro no modo dark */
+    color: var(--muted-foreground); /* Texto no modo dark */
+  }
+
+
+}
+
+
+@layer base {
+  * {
+    border-color: rgb(var(--border));
+  }
+  @layer base {
+    :root {
+      --radius: 0.5rem; /* Define o raio padrão das bordas */
+    }
+  
+    .card, 
+    button, 
+    input {
+      border-radius: var(--radius); /* Bordas arredondadas */
+    }
+  
+    /* Ajuste para cards no modo dark */
+    .dark .card, 
+    .dark button, 
+    .dark input {
+      border-radius: var(--radius); /* Bordas arredondadas no modo dark */
+    }
+  }
+
 }
